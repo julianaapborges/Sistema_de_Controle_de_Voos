@@ -1,21 +1,9 @@
-<<<<<<< Updated upstream
 /* HUGO AUGUSTO SILVA DE FARIA 
    JULIANA APARECIDA BORGES
    LOURRANE LINDSAY ALVES EVARISTO
    MATHEUS MOTA GOMES
    SAMARA PALOMA LOPES AUGUSTO RIBEIRO 
 */
-
-#include "../src/Sistema.h"
-=======
-/* HUGO AUGUSTO SILVA DE FARIA 
-   JULIANA APARECIDA BORGES
-   LOURRANE LINDSAY ALVES EVARISTO
-   MATHEUS MOTA GOMES
-   SAMARA PALOMA LOPES AUGUSTO RIBEIRO 
-*/
->>>>>>> Stashed changes
-
 #include "../src/Sistema.h"
 
 int main(){
@@ -51,3 +39,4 @@ int main(){
     sistema.salvarDados();
     return 0;
 }
+
