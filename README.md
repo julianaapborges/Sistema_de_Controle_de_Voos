@@ -1,4 +1,4 @@
-# Tp01.1-poo
+# Trabalho Prático 1 - Sistema de Controle de Voos(POO)
 
 Trabalho prático de Programação Orientada a Objetos sobre um sistema básico de aeroporto.
 
