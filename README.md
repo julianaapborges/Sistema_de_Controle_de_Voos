@@ -1,4 +1,4 @@
-# Tp01.1-poo
+# Trabalho Prático 1 - Sistema de Controle de Voos(POO)
 
 Trabalho prático de Programação Orientada a Objetos sobre um sistema básico de aeroporto.
 
@@ -17,11 +17,26 @@ Este projeto implementa um sistema simples de gerenciamento de aeroporto utiliza
   - `Voo.cpp`
   - `Sistema.cpp`
   - `Persistencia.cpp`
-- `Makefile` — (não testado)
+- `Makefile`
 
 ## Como compilar
 
-Recomenda-se compilar usando o `g++`:
+Recomenda-se compilar usando o `make` :
+
+Se estiver em um ambiente que suporte `make` (Linux, WSL ou Git Bash no Windows), basta executar:
+
+```sh
+make
+./programa
+```
+
+> Para limpar os arquivos gerados pela compilação (como o executável `programa` e a pasta `obj`), use:
+
+```sh
+make clean
+```
+
+Ou, se preferir compilar usando o `g++`:
 
 ```sh
 g++ -c -Wall ./classes/Aeronave.cpp ./classes/Horario.cpp ./classes/Passageiro.cpp ./classes/Pessoa.cpp ./classes/Piloto.cpp ./classes/Voo.cpp ./classes/Sistema.cpp ./classes/Persistencia.cpp
@@ -32,8 +47,6 @@ Ou, se preferir usar o `gcc`:
 ```sh
 gcc -c -Wall ./classes/Aeronave.cpp ./classes/Horario.cpp ./classes/Passageiro.cpp ./classes/Pessoa.cpp ./classes/Piloto.cpp ./classes/Voo.cpp ./classes/Sistema.cpp ./classes/Persistencia.cpp
 ```
-
-> **Nota:** O Makefile está presente no projeto, mas não foi testado. Caso tenha problemas na compilação, prefira usar os comandos acima manualmente.
 
 ## Requisitos
 
